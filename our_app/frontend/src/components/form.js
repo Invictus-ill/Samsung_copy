@@ -93,7 +93,7 @@ function TranslateForm() {
             style={malvika}
           />
         </Form.Group>
-        {lenCsv === lenSent ? (
+        {((lenCsv === lenSent) && (lenCsv !== 0)) ? (
           <Button variant="primary" type="submit">
             ADD
           </Button>
